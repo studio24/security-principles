@@ -11,6 +11,10 @@ For further information please view
 * Database(s) and file structure are backed up to a secure (non-public) S3 bucket daily, these are stored for 35 days and then automatically deleted.
 * Data may be used on Development machines as required, all these devices meet Cyber Essentials accreditation. Where sensitive data is stored in databases we develop scripts to download safe versions of the database with sensitive data removed for development work.
 
+## Data at rest protection
+* We allow minimal access to the servers and database content is encrypted at rest.
+
+
 ## Data sanitization
 * When decommissioning via AWS all servers, storage blocks and S3 buckets are permanently deleted.
 * Local devices are accessible via an individual staff member only. 

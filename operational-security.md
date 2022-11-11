@@ -1,5 +1,9 @@
 # Operational security
 
+## Configuration and change management
+* The hosting environment and updates are tested within a sandbox environment prior and peer reviewed prior going live. 
+* Studio 24 uses software autonomy to manage the hosting environment and all changes can be audited.
+
 ## Vulnerability management
 
 * Any known vulnerabilities that are being exploited in the wild are addressed as a matter of urgency, via whatever the recommended solution is (eg: installing a patch or removing a package).
