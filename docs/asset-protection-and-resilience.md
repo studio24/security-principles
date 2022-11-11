@@ -1,0 +1,12 @@
+# Asset protection and resilience
+Hosting is via AWS (Amazon Web Services), in region eu-west-1 (Ireland) or eu-west-2 (London).   
+
+For further information please view 
+* [AWS data center controls](https://aws.amazon.com/compliance/data-center/controls/)  
+* [AWS Service Level Agreements](https://aws.amazon.com/legal/service-level-agreements/?aws-sla-cards.sort-by=item.additionalFields.serviceNameLower&aws-sla-cards.sort-order=asc&awsf.tech-category-filter=*all)
+## Resilience
+* Configuration and Data for the web server are stored on (EBS) Elastic Block Storage to help ensure availability and easy re-attachment to an alternative server if required.
+* Configuration (without sensitive data) is backed up to a private Github repository for further redundancy.
+* Auto Scaling Groups are used to manage the availability of servers.
+* Database(s) and file structure are backed up to a secure (non-public) S3 bucket daily, these are stored for 35 days and then automatically deleted.
+* Data may be used on Development machines as required, all these devices meet Cyber Essentials accreditation. Where sensitive data is stored in databases we develop scripts to download safe versions of the database with sensitive data removed for development work.
