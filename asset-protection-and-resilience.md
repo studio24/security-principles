@@ -28,8 +28,6 @@ We take an approach where we encrypt all user data, with encryption at rest as o
 
 Database content is encrypted at rest both in the database storage and in backups.
 
-_TODO: Is this accurate?_
-
 We use Elastic Block Storage (EBS) to store persistent data which is encrypted at rest.
 
 ## Data sanitisation and equipment disposal
@@ -56,7 +54,7 @@ For all services:
 
 For Standard and Single Cloud:
 
-* Single webserver instance. On Standard a shared database service, on Single Cloud a dedicated database service.
+* Single webserver instance. On Standard Cloud a shared database service, on Single Cloud a dedicated database service.
 * Configuration and data for the web server are stored on Elastic Block Storage (EBS) to help ensure availability and easy re-attachment to an alternative server if required.
 * Auto scaling groups are used to manage restoring servers quickly.
 * Restoring servers will have some short downtime (normally a few minutes).

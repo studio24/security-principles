@@ -9,7 +9,7 @@ Studio 24 is [Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview
 ## Contents
 
 * Introduction (this page)
-* [Secure development](secure-development.md) - TODO
+* [Secure development](secure-development.md)
 * [Data privacy and GDPR](data-privacy.md)
 * [Email security](email-security.md)
 
