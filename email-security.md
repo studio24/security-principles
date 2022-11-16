@@ -1,6 +1,6 @@
 # Email security
 
-We use a dedicated email delivery service, [Postmark](https://postmarkapp.com/), to deliver emails reliably. We believe this is more effective than rolling our own email service.
+We use a dedicated email delivery service, [Postmark](https://postmarkapp.com/), to deliver emails reliably. We believe this is more effective than running our own email service.
 
 Postmark has many resources to help with [email security](https://postmarkapp.com/security). Our standard email security setup is:
 
