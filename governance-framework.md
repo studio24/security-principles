@@ -7,7 +7,8 @@ We have policies in place that cover:
 * The testing/updating and deployment of the website codebase.
 * The testing/updating of the server OS (operating system) and software packages.
 * The testing/updating and deployment of the CMS (Content Management System) and the relevant plugins used.
-* The hosting infrastructure is monitored with automated alerts/alarms as required. 
+  
+The hosting infrastructure is monitored with automated alerts/alarms as required. 
 
 On a project basis, we identify security and data privacy risks and document these in a risk register. Mitigations are put in place and monitored by the Project Manager to ensure we are addressing these.
 
