@@ -52,7 +52,7 @@ You, as the client, are the data controller under GDPR.
 
 ## External services
 
-We managed our hosting at AWS either in regions eu-west-1 (Ireland) or eu-west-2 (London). We use external services to help power websites:
+We manage our hosting at AWS either in regions eu-west-1 (Ireland) or eu-west-2 (London). We use external services to help power websites:
 
 * [Cloudflare](https://www.cloudflare.com/gdpr/introduction/) - security and performance
 * [Postmark](https://postmarkapp.com/eu-privacy#gdpr) - email delivery
