@@ -12,6 +12,6 @@ The hosting infrastructure is monitored with automated alerts/alarms as required
 
 On a project basis, we identify security and data privacy risks and document these in a risk register. Mitigations are put in place and monitored by the Project Manager to ensure we are addressing these.
 
-We have a set of [secure development principles](secure-development.md) we follow to help ensure good security. Security issues that affect projects is peer reviewed by Simon Jones.
+We have a set of [secure development principles](secure-development.md) we follow to help ensure good security. Security issues that affect projects are peer reviewed by Simon Jones.
 
 Where required, we organise an independent third-party agency to conduct a security penetration test (pen test) on the website before launch. This can be repeated on an annual basis or when significant new functionality is introduced.

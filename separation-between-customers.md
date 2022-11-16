@@ -2,7 +2,7 @@
 
 On the Standard Cloud hosting service we use a shared environment for hosting simple websites. This service includes one webserver per client and access to a shared database service with unique connection credentials. 
 
-On Single Cloud and above all cloud hosting services offer:
+For Single Cloud and above our hosting service offers:
 
 * All customers have their own Virtual Private Cloud (VPC) for containing their hosting environment.
 * Each VPC has its own set of security keys and credentials which isolates each environment to that individual client only.

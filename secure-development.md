@@ -4,9 +4,9 @@ We develop web applications to be secure by design. Our high-level secure develo
 
 ## Design
 
-When planning projects we aim to create a secure system with a small attack surface with appropriate authentication and authorisation in place for areas of the web application with restricted access.
+When planning web development projects we aim to create secure systems. 
 
-We consider the following and peer review this within the team to help design a secure solution. This is reviewed on an ongoing basis throughout the project.
+We review the following, and peer review it, to help design a secure solution. We review security on an ongoing basis throughout the project.
 
 * User authentication 
 * Access control (authorisation)
@@ -30,7 +30,7 @@ We consider the following and peer review this within the team to help design a 
 We take care to be aware of common security considerations:
 
 * Cross-site scripting (XSS).
-* Cross-Site Request Forgery (CSRF).
+* Cross-site Request Forgery (CSRF).
 * SQL injection (use prepared statements).
 * Filter incoming data and sanitize data when it is outputted.
 * Validate incoming data before it is used.

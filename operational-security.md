@@ -39,6 +39,5 @@ Studio 24 produces an incident report for events such as site outages to notify 
 Cloud hosting services are managed via:
 
 * Hosting service configuration is managed via [Terraform](https://www.terraform.io/) and [Ansible](https://www.ansible.com/). 
-* Hosting configuration (without sensitive data) is backed up to a private GitHub repository.
+* Hosting configuration (without sensitive data) is backed up to a private GitHub repository so this can be audited.
 * The hosting environment and updates are tested within a sandbox environment and peer reviewed prior going live. 
-* Studio 24 uses software autonomy to manage the hosting environment and all changes can be audited.
