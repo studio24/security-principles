@@ -6,6 +6,7 @@ Postmark has many resources to help with [email security](https://postmarkapp.co
 
 * [Verify domains](https://postmarkapp.com/support/article/1046-how-do-i-verify-a-domain) for email sending via DKIM and Return-Path DNS settings. 
 * Disable email tracking in Postmark (for data privacy).
-* We use the REST API over HTTPS where possible to send emails, falling back to SMTP as an alternative.
+* We use the REST API over HTTPS where possible to send emails. Postmark has [integrations](https://postmarkapp.com/integrations) for Craft, WordPress, Laravel and Symfony.
+* Where this isn't possible we use SMTP over TLS.
 
 If Postmark is not acceptable to use for your project, we can use [AWS Simple Email Service (SES)](https://aws.amazon.com/ses/) hosted in your local country, though additional setup costs will apply. AWS SES also supports [domain verification via DKIM](https://docs.aws.amazon.com/ses/latest/dg/send-email-authentication-dkim-easy.html).
