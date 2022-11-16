@@ -4,17 +4,17 @@ As an ethical agency we take data privacy seriously and advise clients on how to
 
 The GDPR principles include:
 
-* Inform users – Tell users why you are collecting data and who this is shared with
-* Limit what you collect – Limit data collection to what is necessary
-* Accuracy – Take reasonable steps to keep user data accurate
-* Limit data retention – Limit how long you keep data for
-* Security – Process user data in a secure way and protect user data from unlawful processing
+* Inform users – Tell users why you are collecting data and who this is shared with.
+* Limit what you collect – Limit data collection to what is necessary.
+* Accuracy – Take reasonable steps to keep user data accurate.
+* Limit data retention – Limit how long you keep data for.
+* Security – Process user data in a secure way and protect user data from unlawful processing.
 
 We wrote a series of [blog posts to advise clients about GDPR](https://www.studio24.net/blog/practical-approach-to-gdpr/).
 
 ## Consent for data collection
 
-Collection of personal data must meet a [lawful basis for processing](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/), the most common of which for online services are:
+Collection of personal data must meet a [lawful basis for processing](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/), the most common of which for websites are:
 
 * Consent – You need to offer users an informed choice and ask for opt-in consent. For example, opting into a marketing newsletter.
 * Contract – You need to process user data to fulfil a contractual obligation to that user. For example, processing an order on an E-Commerce site. Your website terms and conditions would normally cover this use case so is more straightforward.
@@ -41,8 +41,8 @@ Common techniques we use to protect personal data:
 * Using application encryption to store sensitive personal data.
 * Automate data deletion if we have fixed data retention times.
 * Where 3rd party cookies are used, implement a cookie manager tool, ideally not setting 3rd party cookies without consent. Inform users how cookies are used on the website, including 3rd party cookies.
-* We recommend [Matomo analytics](https://matomo.org/gdpr-analytics/) as an alternative to Google Analytics, since it has better data privacy.
 * Ensure there is a data privacy web page detailing how personal data is processed and detailing how users can request data or request data deletion. We can assist with managing these requests via our support service.
+* We recommend [Matomo analytics](https://matomo.org/gdpr-analytics/) as an alternative to Google Analytics, since it has better data privacy.
 
 ## Data processor
 
@@ -71,9 +71,9 @@ If Postmark is not acceptable to use for your project, we can use [AWS Simple Em
 
 ## Data breaches
 
-Under GDPR a serious data breach that results in a risk to people’s rights and freedoms must be reported to the Information Commissioner’s Office (ICO), the UK authority for Data Protection, with 72 hours. ICO gives the example of a customer database being stolen could enable identity theft, so needs to be reported. Whereas a staff telephone list is not a serious risk and would not be.
+Under GDPR a serious data breach that results in a risk to people’s rights and freedoms must be [reported to the Information Commissioner’s Office (ICO)](https://ico.org.uk/for-organisations/report-a-breach/). ICO gives the example of a customer database being stolen could enable identity theft, so needs to be reported. Whereas a staff telephone list is not a serious risk and would not be.
 
-In the context of a website managed or hosted by Studio 24, if Studio 24 (the processor) is made aware of a data breach we will make the client (the controller) aware as soon as possible. We will report this to ICO within 72 hours, or we will request the client (data controller) does this. 
+In the context of a website managed by Studio 24, if Studio 24 (the processor) is made aware of a data breach we will make the client (the data controller) aware as soon as possible. We will report this to ICO within 72 hours, or we will request the client (data controller) does this. 
 
 We keep a record of contacts our Support team can contact in the case of any data breach or critical issue on your website. 
 
