@@ -6,12 +6,12 @@ We develop web applications to be secure by design. Our high-level secure develo
 
 When planning web development projects we aim to create secure systems. 
 
-We review the following, and peer review it, to help design a secure solution. We review security on an ongoing basis throughout the project.
+We review the following areas to help design a secure solution. We review security on an ongoing basis throughout the project.
 
-* User authentication 
-* Access control (authorisation)
-* How we are processing personal data
-* Whether we are dealing with sensitive personal data (e.g. health data)
+* User authentication. 
+* Access control (authorisation).
+* How we are processing personal data.
+* Whether we are dealing with sensitive personal data (e.g. health data).
 * How might malicious users try to exploit the feature? What can we do about it? How can we test this?
 * What 3rd party software or packages do we need to use for this project and is there a supported, stable version we can use?
 * What 3rd party systems do we need to interact with and what security implications does this have?
@@ -34,7 +34,7 @@ We take care to be aware of common security considerations:
 * SQL injection (use prepared statements).
 * Filter incoming data and sanitize data when it is outputted.
 * Validate incoming data before it is used.
-* If something fails, throw an exception. You can catch these effeciently in your code.
+* If something fails, throw an exception. We can catch these effeciently in our code.
 * If cryptography is used rely on well supported packages rather than roll it ourselves.
 * Separate the view layer (front-end templates) by using a proper templating system that is not just PHP (we use Twig).
 
@@ -44,8 +44,9 @@ We take care to be aware of common security considerations:
 
 * We use the current latest stable version of [PHP](https://www.php.net/supported-versions).
 * We use the current Long Term Support version of [NodeJS](https://nodejs.org/en/) for JavaScript libraries.
+* We use well-supported, high-quality software as the foundation for our PHP development work: [Laravel](https://laravel.com/) and [Symfony](https://symfony.com/).
 * We use supported versions of any packages and libraries our code relies on. 
-* Where legacy software versions are in use we discuss these with the client and put a plan in place to upgrade these or migrate away to a newer system.
+* Where legacy software versions are in use we discuss these with the client and put a plan in place to upgrade or migrate away to a newer system.
 * We manage PHP packages via Composer and JavaScript packages via Node.
 * We audit CMS plugins for how well used they are in the community and how well they are maintained.
 
