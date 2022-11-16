@@ -1,4 +1,11 @@
 # Separation between customers
-* All customers have their own VPC (Virtual Private Cloud) for containing their hosting environment.
+
+On the Standard Cloud hosting service we use a shared environment for hosting simple websites. This service includes one webserver per client and access to a shared database service with unique connection credentials. 
+
+On Single Cloud and above all cloud hosting services offer:
+
+* All customers have their own Virtual Private Cloud (VPC) for containing their hosting environment.
 * Each VPC has its own set of security keys and credentials which isolates each environment to that individual client only.
-* Depending on the hosting package, the client will either have their own database instance or use a shared database server with unique connection credentials.
+* Each client has their own cloud services (webserver, database service, S3 for static file storage)
+
+For larger client accounts we setup dedicated AWS accounts for the highest level of isolation.
