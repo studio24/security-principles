@@ -1,6 +1,6 @@
 # Governance framework
 
-Simon Jones, MD, is responsible for security at Studio 24. This is managed on a day-to-day basis by Alan Isaacson, Support Developer. Studio 24 is [Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview) accredited.
+Simon Jones, MD, is responsible for security at Studio 24. This is managed on a day-to-day basis by Alan Isaacson, Support Developer. Studio 24 is [Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview) accredited and we actively maintain Cyber Essentials security across the team.
  
 We have policies in place that cover:
 

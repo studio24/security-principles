@@ -1,6 +1,6 @@
 # Security principles
 
-We take security seriously at Studio 24, our security principles for our work are detailed here. These principles are approved by Simon Jones, Managing Director.
+We take security seriously at Studio 24. Our security principles are detailed here. These principles are approved by Simon Jones, Managing Director.
 
 We follow the National Cyber Security Centre (NCSC) [cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).
 
@@ -36,7 +36,7 @@ Any Studio 24 staff member can contribute to this repo. Just create a branch, ma
 
 ## About Us
 
-[Studio 24](https://www.studio24.net) is a human-centred digital agency based in Cambridge, UK, but servicing clients across the UK, USA and Europe. 
+[Studio 24](https://www.studio24.net) is a human-centred digital agency based in Cambridge, UK, servicing clients across the UK, USA and Europe. 
 
 ## License
 

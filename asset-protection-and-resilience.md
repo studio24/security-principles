@@ -18,9 +18,9 @@ For further information please see:
 
 ## Data centre security
 
-Physical data centre security controls at AWS are comprehensive and are detailed on https://aws.amazon.com/compliance/data-center/controls/
+[Physical data centre security controls](https://aws.amazon.com/compliance/data-center/controls/) at AWS are comprehensive.
 
-AWS meets ISAE 3402 standards. See https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/compliance.html
+AWS meets [ISAE 3402 standards](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/compliance.html). 
 
 ## Data encryption
 
@@ -39,12 +39,13 @@ We use Elastic Block Storage (EBS) to store persistent data which is encrypted a
 
 ## Physical resilience and availability
 
-We offer four levels of web hosting for clients designed to support different SLAs:
+We offer different levels of web hosting for clients designed to support different SLAs:
 
 * Standard Cloud, single cloud server with shared database service, 99.5% SLA
 * Single Cloud, single cloud service, 99.9% SLA
-* Scalable Cloud, auto scaling service with a minimum of 2 instances for critical services, 99.95% SLA
-* High Availability Cloud, auto-scaling service hosted in 2 availability zones for redundancy, 99.99% SLA
+* Dedicated AWS Acccount, we manage a dedicated AWS account on behalf of the client, this normally runs a single cloud setup or one of the following:
+    * Auto Scaling, auto scaling service with a minimum of 2 instances for critical services, 99.95% SLA
+    * High Availability, auto-scaling service hosted in 2 availability zones for redundancy, 99.99% SLA
 
 For all services:
 
@@ -59,14 +60,14 @@ For Standard and Single Cloud:
 * Auto scaling groups are used to manage restoring servers quickly.
 * Restoring servers will have some short downtime (normally a few minutes).
 
-For Scalable Cloud and High Availability Cloud:
+For Auto Scaling and High Availability:
 
 * A minimum of two instances for critical services such as web server and database service.
 * Auto scaling to increase hosting resources at times of high traffic and decrease resources when they are not needed. 
 * We use CodeBuild and CodePipeline to manage restoring servers and deploying code changes.
 * Restoring servers will have no downtime.
 
-For High Availability Cloud:
+For High Availability:
 
 * Scalable cloud hosting service is replicated across two availability zones (AZ) for redundancy
 
