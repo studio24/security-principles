@@ -14,7 +14,7 @@ We have a range of techniques to monitor and address vulnerabilities:
 We monitor for attacks and misuse to help identify possible attacks:
 
 * We have performance alerts in place that notify us when system resources are escalated to an extreme level ([AWS Cloudwatch](https://aws.amazon.com/cloudwatch/)).
-* We use monitoring and alerting packages that check the availability and response of 5 minute intervals ([Pingdom](https://www.pingdom.com/)).
+* We use monitoring and alerting packages that check the availability and response at 5 minute intervals ([Pingdom](https://www.pingdom.com/)).
 * We use automated alerting tools to help alert us to critical website issues out-of-hours ([iLert](https://www.ilert.com/)).
 
 ## Incident management
