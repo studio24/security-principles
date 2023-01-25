@@ -4,7 +4,7 @@ We take security seriously at Studio 24. Our security principles are detailed he
 
 We follow the National Cyber Security Centre (NCSC) [cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).
 
-Studio 24 is [Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview) accredited.
+Studio 24 is [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview) accredited.
 
 ## Contents
 
