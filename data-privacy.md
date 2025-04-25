@@ -4,11 +4,11 @@ As an ethical agency we take data privacy seriously and advise clients on how to
 
 The GDPR principles include:
 
-* Inform users – Tell users why you are collecting data and who this is shared with.
-* Limit what you collect – Limit data collection to what is necessary.
-* Accuracy – Take reasonable steps to keep user data accurate.
-* Limit data retention – Limit how long you keep data for.
-* Security – Process user data in a secure way and protect user data from unlawful processing.
+* **Inform users** – Tell users why you are collecting data and who this is shared with.
+* **Limit what you collect** – Limit data collection to what is necessary.
+* **Accuracy** – Take reasonable steps to keep user data accurate.
+* **Limit data retention** – Limit how long you keep data for.
+* **Security** – Process user data in a secure way and protect user data from unlawful processing.
 
 We wrote a series of [blog posts to advise clients about GDPR](https://www.studio24.net/blog/practical-approach-to-gdpr/).
 
