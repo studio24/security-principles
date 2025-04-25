@@ -16,18 +16,19 @@ We wrote a series of [blog posts to advise clients about GDPR](https://www.studi
 
 Collection of personal data must meet a [lawful basis for processing](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/), the most common of which for websites are:
 
-* Consent – You need to offer users an informed choice and ask for opt-in consent. For example, opting into a marketing newsletter.
-* Contract – You need to process user data to fulfil a contractual obligation to that user. For example, processing an order on an E-Commerce site. Your website terms and conditions would normally cover this use case so is more straightforward.
-* Legitimate interests – You have a legitimate reason for processing user data (which can be commercial) that passes the legitimate interests test.
+* **Consent** – You need to offer users an informed choice and ask for opt-in consent. For example, opting into a marketing newsletter.
+* **Contract** – You need to process user data to fulfil a contractual obligation to that user. For example, processing an order on an E-Commerce site. Your website terms and conditions would normally cover this use case so is more straightforward.
+* **Legitimate interests** – You have a legitimate reason for processing user data (which can be commercial) that passes the legitimate interests test.
 
 ## Reviewing data privacy
 
 We review data privacy requirements in every project, since each project has individual requirements. The specifics of data privacy for your website will be discussed in your project. 
 
-Areas we explore include:
+Areas we review include:
 
 * What personal data is collected (any data that directly or indirectly identifies a person)?
-* Is any data considered sensitive (e.g. protected characteristic, health data)?
+* Are you collecting [special category](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) of personal data (e.g. protected characteristic, health data)?
+* Are you collecting personal data for children?
 * Why do we need this data, can we limit data collection?
 * How long do we need to retain personal data for?
 * Can we support data portability (allow users to export their data)?
@@ -38,7 +39,7 @@ Common techniques we use to protect personal data:
 * Use positive opt-in for any consent to data collection, don't use conditional consent for data collection.
 * Use clear language to ensure data collection is understood.
 * Storing personal data encrypted at rest.
-* Using application encryption to store sensitive personal data.
+* Using application encryption to store special category data.
 * Automate data deletion if we have fixed data retention times.
 * Where 3rd party cookies are used, implement a cookie manager tool, ideally not setting 3rd party cookies without consent. Inform users how cookies are used on the website, including 3rd party cookies.
 * Ensure there is a data privacy web page detailing how personal data is processed and detailing how users can request data or request data deletion. We can assist with managing these requests via our support service.
