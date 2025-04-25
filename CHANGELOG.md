@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 - Supported versions of 3rd party software we work with
+- Details of Cyber Essentials accreditation
 
 ### Changed
 - Expanded supply chain security
 - Clarified how we deal with special category data
-- 
 
 ## 2023-01-25
 

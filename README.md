@@ -14,6 +14,7 @@ Studio 24 is [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/ove
 
 * Introduction (this page)
 * [Secure development](secure-development.md)
+* [Supported version](supported-versions.md)
 * [Data privacy and GDPR](data-privacy.md)
 * [Email security](email-security.md)
 
