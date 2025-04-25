@@ -4,12 +4,17 @@ We take security seriously at Studio 24. Our security principles are detailed he
 
 We follow the National Cyber Security Centre (NCSC) [cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).
 
+## Accreditation
 Studio 24 is [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview) accredited.
 
+* [Cyber Essentials Plus](https://registry.blockmarktech.com/certificates/482b91ce-3be1-4830-b21e-19e5497e8a80/), expires 21/02/2026
+* [Cyber Essentials](https://registry.blockmarktech.com/certificates/086f304a-d03b-4937-9dbe-7dd41123c5e7/), expires 05/11/2025 
+ 
 ## Contents
 
 * Introduction (this page)
 * [Secure development](secure-development.md)
+* [Supported version](supported-versions.md)
 * [Data privacy and GDPR](data-privacy.md)
 * [Email security](email-security.md)
 
@@ -33,6 +38,8 @@ Studio 24 is [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/ove
 ## Contributing
 
 Any Studio 24 staff member can contribute to this repo. Just create a branch, make your changes and create a Pull Request (PR) to merge changes into the main branch. All changes to the main branch require approval from Simon.
+
+We maintain a [changelog](CHANGELOG.md) for this project.
 
 ## About Us
 

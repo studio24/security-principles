@@ -42,13 +42,13 @@ We take care to be aware of common security considerations:
 
 ### External packages
 
-* We use the current latest stable version of [PHP](https://www.php.net/supported-versions).
-* We use the current Long Term Support version of [NodeJS](https://nodejs.org/en/) for JavaScript libraries.
+* We only use supported versions of external software packages
 * We use well-supported, high-quality software as the foundation for our PHP development work: [Laravel](https://laravel.com/) and [Symfony](https://symfony.com/).
-* We use supported versions of any packages and libraries our code relies on. 
 * Where legacy software versions are in use we discuss these with the client and put a plan in place to upgrade or migrate away to a newer system.
-* We manage PHP packages via Composer and JavaScript packages via Node.
+* We manage PHP packages via Composer and JavaScript packages via Node Package Manager.
 * We audit CMS plugins for how well used they are in the community and how well they are maintained.
+
+See [supported versions](supported-versions.md).
 
 ## Testing
 
