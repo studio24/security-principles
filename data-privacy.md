@@ -12,6 +12,40 @@ The GDPR principles include:
 
 We wrote a series of [blog posts to advise clients about GDPR](https://www.studio24.net/blog/practical-approach-to-gdpr/).
 
+## Personal data
+
+Personal data is information about an individual, which can be used to identify that individual (either directly or by
+combining with other information). It only applies to living people.
+
+Examples of personal data:
+
+- people’s names and addresses
+- photographs
+- customer reference numbers
+- medical information
+- school reports
+- customer reviews
+
+See [Personal information - what is it?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/personal-information-what-is-it/).
+
+### Special category data
+
+If we are collecting sensitive personal data, this needs to be treated with a higher level of protection. The UK GDPR
+refers to the processing of these data as [special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/):
+
+- race
+- ethnic origin
+- political opinions
+- religious or philosophical beliefs
+- trade union membership
+- genetic data
+- biometric data (where this is used for identification purposes)
+- health data
+- sex life
+- sexual orientation
+
+Personal information relating to criminal convictions and offences is classifed as [criminal offence data](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/criminal-offence-data/).
+
 ## Consent for data collection
 
 Collection of personal data must meet a [lawful basis for processing](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/), the most common of which for websites are:
@@ -27,7 +61,7 @@ We review data privacy requirements in every project, since each project has ind
 Areas we review include:
 
 * What personal data is collected (any data that directly or indirectly identifies a person)?
-* Are you collecting [special category](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) of personal data (e.g. protected characteristic, health data)?
+* Are you collecting [special category data](#special-category-data) (e.g. health data)?
 * Are you collecting personal data for children?
 * Why do we need this data, can we limit data collection?
 * How long do we need to retain personal data for?
@@ -72,11 +106,4 @@ If Postmark is not acceptable to use for your project, we can use [AWS Simple Em
 
 ## Data breaches
 
-Under GDPR a serious data breach that results in a risk to people’s rights and freedoms must be [reported to the Information Commissioner’s Office (ICO)](https://ico.org.uk/for-organisations/report-a-breach/). ICO gives the example of a customer database being stolen could enable identity theft, so needs to be reported. Whereas a staff telephone list is not a serious risk and would not be.
-
-In the context of a website managed by Studio 24, if Studio 24 (the processor) is made aware of a data breach we will make the client (the data controller) aware as soon as possible. We will report this to ICO within 72 hours, or we will request the client (data controller) does this. 
-
-We keep a record of contacts our Support team can contact in the case of any data breach or critical issue on your website. 
-
-You can find out more about what constitutes a serious data breach and how to report it on [ICO’s guide to Personal data breaches](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/personal-data-breaches/). 
- 
+See [data breaches](data-breaches.md).
