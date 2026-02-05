@@ -85,24 +85,11 @@ Studio 24 acts as a data processor under GDPR for any personal data your website
 
 You, as the client, are the data controller under GDPR.
 
-## External services
+## Sub-processors
 
-We manage our hosting at AWS either in regions eu-west-1 (Ireland) or eu-west-2 (London). We use external services to help power websites:
+We maintain a [list of third-party processors](third-party-processors.md) who may process personal data on your behalf. 
 
-* [Cloudflare](https://www.cloudflare.com/gdpr/introduction/) - security and performance
-* [Postmark](https://postmarkapp.com/eu-privacy#gdpr) - email delivery
- 
-Both Cloudflare and Postmark meet GDPR and Privacy Shield frameworks. 
-
-If other external services are used for your project, we'll document these and investigate data privacy risks.
-
-### Emails
-
-Email may be used in your application to send personal data, for example an address. We recommend not sending sensitive personal data via email. 
-
-Postmark does not encrypt email messages since they must be decrypted in the admin interface. Postmark stores all sent emails for 45 days, while bounces and spam complaints are stored indefinitely in a Streams Suppression list for reporting and list hygiene.  
-
-If Postmark is not acceptable to use for your project, we can use [AWS Simple Email Service (SES)](https://aws.amazon.com/ses/) hosted in your local country, though additional setup costs will apply.
+We can provide an accurate list of third-party processors for your website on request.
 
 ## Data breaches
 
