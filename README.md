@@ -8,7 +8,7 @@ We follow the National Cyber Security Centre (NCSC) [cloud security principles](
 Studio 24 is [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview) accredited.
 
 * [Cyber Essentials Plus](https://registry.blockmarktech.com/certificates/7236b381-e563-41ee-a078-109101c5c6e7/), Certificate ID 7236b381-e563-41ee-a078-109101c5c6e7, expires 27/01/2027
-* [Cyber Essentials](https://registry.blockmarktech.com/certificates/ddcbfcd8-ffc6-4ed7-a788-ac27e7deabe5/), Certificate ID ddcbfcd8-ffc6-4ed7-a788-ac27e7deabe5, expires 31/10/2026 
+* [Cyber Essentials](https://registry.blockmarktech.com/certificates/d89b7469-5928-46f7-a24a-cd6041fe30b7/), Certificate ID d89b7469-5928-46f7-a24a-cd6041fe30b7, expires 26/10/2027 
  
 ## Contents
 
