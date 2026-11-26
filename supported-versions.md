@@ -8,15 +8,15 @@ We aim to update this page on a semi-regular basis.
 
 | Software                                                            | Description  | Active support | Security support | Major version policy             |
 |---------------------------------------------------------------------|--------------|----------------|------------------|----------------------------------|
-| [PHP](https://www.php.net/supported-versions)                       | Programming language | 8.3, 8.4 | 8.1, 8,2       | Point releases (e.g. 8.4 to 8.5) |
-| [Laravel](https://laravel.com/docs/releases#support-policy)         | Web framework (PHP)  | 11, 12 |                  | Major releases (e.g. 12 to 13)   |
-| [Symfony](https://symfony.com/releases)                             | Web framework (PHP)  | 6, 7   | 5                | Major releases (e.g. 7 to 8)     |
-| [WordPress](https://wordpress.org/download/releases/)               | CMS (PHP)    | 6.8 [^1]       |                  | Point releases (e.g. 6.8 to 6.9) |
-| [Craft CMS](https://craftcms.com/knowledge-base/supported-versions) | CMS (PHP)    | 5              | 4                | Major releases (e.g. 5 to 6)     |
-| [NodeJS](https://nodejs.org/en/about/previous-releases)             | JavaScript runtime | 22 [^2]  | 20               | Major releases (e.g. 22 to 23)   |
-| [MySQL](https://dev.mysql.com/doc/refman/9.4/en/mysql-releases.html) | Database    | 8.4, 9.4       | 8.0              | Point releases (e.g. 8.3 to 8.4) |
-| [MariaDB](https://mariadb.com/docs/release-notes/community-server/about/release-model) | Database | 10.11, 11.4, 11.8 |  | Point releases (e.g. 11.3 to 11.4) |
-| [PostgreSQL](https://www.postgresql.org/support/versioning/)        | Database     | 15, 16         |                  | Major releases (e.g. 15 to 16)   |
+| [PHP](https://www.php.net/supported-versions)                       | Programming language | 8.4, 8.5, 8.6 | 8.2, 8,3       | Point releases (e.g. 8.4 to 8.5) |
+| [Laravel](https://laravel.com/docs/releases#support-policy)         | Web framework (PHP)  | 13 | 12                 | Major releases (e.g. 12 to 13)   |
+| [Symfony](https://symfony.com/releases)                             | Web framework (PHP)  | 7, 8 | 5, 6                | Major releases (e.g. 7 to 8)     |
+| [WordPress](https://wordpress.org/download/releases/)               | CMS (PHP)    | 7.1 [^1]       |                  | Point releases (e.g. 6.8 to 6.9) |
+| [Craft CMS](https://craftcms.com/knowledge-base/supported-versions) | CMS (PHP)    | 5              |                 | Major releases (e.g. 5 to 6)     |
+| [NodeJS](https://nodejs.org/en/about/previous-releases)             | JavaScript runtime | 24, 26 [^2]  | 22               | Major releases (e.g. 22 to 23)   |
+| [MySQL](https://dev.mysql.com/doc/refman/9.4/en/mysql-releases.html) | Database    | 8.4, 9.7       |               | Point releases (e.g. 8.3 to 8.4) |
+| [MariaDB](https://mariadb.com/docs/release-notes/community-server/about/release-model) | Database | 10.11, 11.4, 11.8, 12.3 |  | Point releases (e.g. 11.3 to 11.4) |
+| [PostgreSQL](https://www.postgresql.org/support/versioning/)        | Database     | 15, 16, 17, 18, 19         |                  | Major releases (e.g. 15 to 16)   |
 | [SQLite](https://sqlite.org/lts.html)                               | Database     | 3 [^3]         |                  | Major releases (e.g. 3 to 4)     |
 
 A useful website for end of life information is [endoflife.date](https://endoflife.date/)
